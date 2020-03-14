@@ -1,0 +1,867 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*********** Fonts ***********/
+
+@font-face{
+    font-family:GothamBlack;
+    src: url('../fonts/Gotham-Black.ttf') format('opentype'); 
+}
+@font-face{
+    font-family:GothamMedium;
+    src: url('../fonts/GothamMedium.ttf') format('opentype'); 
+}
+@font-face{
+    font-family:GothamThin;
+    src: url('../fonts/Gotham-Thin.ttf') format('opentype'); 
+}
+
+.gothamBlack{
+    font-family:GothamBlack;
+}
+
+.gothamMedium{
+    font-family:GothamMedium;
+}
+
+.gothamThin{
+    font-family:GothamThin;
+}
+/*****************************/
+
+/******** Logo Styles ********/
+
+.logo-fury {
+     position: fixed;
+     /*margin: 1.4em;*/
+     /*padding: 1em;*/
+     width: 170px;
+     height: 50px;
+     top: 3%;
+     left: 3%;
+     z-index: 11;
+     cursor: pointer;
+}
+
+.logo-fury img {
+    width: 100%;
+    height: 100%;
+}
+/****************************/
+
+/***** Hamburger Button *****/
+
+.toggle-btn {
+     position: fixed;
+     /*margin: 1.4em;*/
+     /*padding: 1em;*/
+     width: 5%;
+     height: 6%;
+     top: 4%;
+     right: 2.5%;
+     z-index: 11;
+     cursor: pointer;
+}
+
+span.one {
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     background: #000;
+}
+
+span.two {
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     background: #000;
+     margin-top: 60%;
+}
+
+span.three {
+     position: absolute;
+     width: 100%;
+     height: 3px;
+     background: #000;
+     margin-top: 30%;
+}
+
+.menu {
+     z-index: 10;
+     position: fixed;
+     background-image: linear-gradient(to right bottom, rgba(0, 255, 255, 0.8), rgba(255, 255, 255, 0.4)),
+    url(../img/6.jpg);
+     background-size: cover;
+     background-position: top;
+     height: 100vh;
+     width: 100%;
+     top: -100%;
+}
+
+.menu .data {
+     padding: 8em 0 0 2em;
+     text-align: left;
+}
+
+.menu .data ul {
+     list-style: none;
+}
+
+.menu .data ul li:first-child {
+     color: whitesmoke;
+     font-family: gothamBlack;
+     font-size: 24px;
+}
+
+.menu .data ul li:not(:first-child) {
+     color: #fff;
+     font-size: 42px;
+}
+
+.menu .data ul a {
+     text-decoration: none;
+     color: white;
+     font-family: gothamBlack;
+}
+/*****************************/
+
+
+/******** Catamaran ********/
+
+.catamaran-box1, .catamaran-box4, .catamaran-box5 {
+     position: absolute;
+     width: 55%;
+     height: 67%;
+     bottom: 9%;
+     right: -7%;
+     transform: translate(0%, 0%);
+     z-index: 11;
+     cursor: pointer;
+}
+
+/****************************/
+
+/**Section Ready for Cozumel**/
+
+.s3 {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.boximage1 {
+    height: 100vh;
+    /*background-color: crimson;*/
+    padding: 5px;
+}
+
+.image1 {
+    height: 100%;
+    width: 100%;
+}
+
+.boxinfo1 {
+    /*height: 100vh;
+    background-color: gold;*/
+    padding: 5px;
+}
+
+.header1 {
+    margin-left: -220px;
+}
+
+.header1 h1 {
+    text-transform: uppercase;
+    font-size: 95px;
+}
+
+.cozumel {
+    padding-left: 143px;
+    margin-top: -40px;
+}
+
+.description1 {
+    margin: 35px auto;
+    width: 90%;
+}
+
+.description1 ul li {
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.element1 {
+    text-align: center;
+}
+
+.element1 button {
+    background-color: transparent;
+    border: none;
+}
+
+.element1 button:focus {
+    outline-color: transparent !important;
+}
+
+.viewpics1-img {
+    width: 70%;
+    margin-top: -10px;
+}
+
+.no-rem {
+    margin-bottom: 0rem;
+}
+
+
+/*****************************/
+
+
+/***Section Sail & Snorkel***/
+
+.s4 {
+    background-color: white;
+    color: black;
+}
+
+.boximage4 {
+    height: 100vh;
+    /*background-color: crimson;*/
+    padding: 5px;
+}
+
+.image4 {
+    height: 100%;
+    width: 100%;
+}
+
+.boxinfo4 {
+    /*height: 100vh;
+    background-color: gold;*/
+    padding: 5px;
+}
+
+.header4 {
+    margin-left: -100px;
+}
+
+.header4 h1 {
+    text-transform: uppercase;
+    font-size: 95px;
+}
+
+.sail {
+    padding-left: 40px;
+}
+
+.snorkel {
+    padding-left: 0px;
+    margin-top: -40px;
+}
+
+.description4 {
+    margin: 35px auto;
+    width: 90%;
+}
+
+.description4 ul li {
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.element4 {
+    text-align: center;
+}
+
+.element4 button {
+    background-color: transparent;
+    border: none;
+}
+
+.element4 button:focus {
+    outline-color: transparent !important;
+}
+
+.viewpics4-img {
+    width: 70%;
+    margin-top: -10px;
+}
+
+/*****************************/
+
+
+/*** Section Private Beach ***/
+
+.s5 {
+    background-color: gold;
+    color: black;
+}
+
+.boximage5 {
+    height: 100vh;
+    /*background-color: crimson;*/
+    padding: 5px;
+}
+
+.image5 {
+    height: 100%;
+    width: 100%;
+}
+
+.boxinfo5 {
+    /*height: 100vh;
+    background-color: gold;*/
+    padding: 5px;
+}
+
+.header5 {
+    margin-left: -200px;
+}
+
+.header5 h1 {
+    text-transform: uppercase;
+    font-size: 95px;
+    color: white;
+}
+
+.private {
+    padding-left: 0px;
+}
+
+.beach {
+    padding-left: 90px;
+    margin-top: -40px;
+}
+
+.description5 {
+    margin: 35px auto;
+    width: 90%;
+}
+
+.description5 ul li {
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.element5 {
+    text-align: center;
+}
+
+.element5 button {
+    background-color: transparent;
+    border: none;
+}
+
+.element5 button:focus {
+    outline-color: transparent !important;
+}
+
+.viewpics5-img {
+    width: 70%;
+    margin-top: -10px;
+}
+
+/*****************************/
+
+/***Section Drinks & Party***/
+
+.s6 {
+    background-color: white;
+    color: black;
+}
+
+.boximage6 {
+    height: 100vh;
+    /*background-color: crimson;*/
+    padding: 5px;
+}
+
+.image6 {
+    height: 100%;
+    width: 100%;
+}
+
+.boxinfo6 {
+    /*height: 100vh;
+    background-color: gold;*/
+    padding: 5px;
+}
+
+.header6 {
+    margin-left: 35px;
+}
+
+.header6 h1 {
+    text-transform: uppercase;
+    font-size: 95px;
+}
+
+.drinks {
+    padding-left: 0px;
+}
+
+.party {
+    padding-left: 45px;
+    margin-top: -40px;
+}
+
+.description6 {
+    margin: 35px auto;
+    width: 90%;
+    padding-left: 50px;
+}
+
+.description6 ul li {
+    font-size: 20px;
+    list-style: none;
+}
+
+
+.element6 {
+    text-align: center;
+}
+
+.element6 button {
+    background-color: transparent;
+    border: none;
+}
+
+.element6 button:focus {
+    outline-color: transparent !important;
+}
+
+.viewpics6-img {
+    width: 70%;
+    margin-top: -10px;
+}
+
+/*****************************/
+
+/*******Section Reviws*******/
+
+.s7 {
+    background-color: aqua;
+    color: white;
+}
+
+.boxinfo7 {
+    height: 100vh;
+    /*background-color: gold;*/
+}
+
+.header7 {
+    text-align: center;
+}
+
+.header7 h1 {
+    text-transform: uppercase;
+    font-size: 95px;
+    letter-spacing: 25px;
+}
+
+.description7 {
+    margin: 25px auto;
+    width: 75%;
+}
+
+.description7 .slogan {
+    font-size: 20px;
+    text-align: center;
+}
+
+.description7 .ad {
+    text-align: center;
+}
+
+.ad img {
+    width: 15%;
+    margin-top: -10px;
+}
+
+/******************* Vendors ***************/
+.post-slide{
+    overflow: hidden;
+    margin-right: 15px;
+    background-color:#fff !important;
+}
+.post-slide .post-img {
+    float: left;
+    width:50%;
+    position: relative;
+    margin-right: 30px;
+}
+.post-slide .post-img img{
+    width: 100%;
+    height: auto;
+}
+.post-slide .post-date{
+    background: dodgerblue;
+    color:#fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 2% 3%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition:all 0.50s ease;
+}
+.post-slide .date{
+    display: block;
+    font-size:20px;
+    font-weight: 700;
+}
+.post-slide .month{
+    display: block;
+    font-size:11px;
+    text-transform: uppercase;
+}
+.post-slide .post-review {
+    padding: 5% 3% 1% 0;
+    border-top: 3px solid dodgerblue;
+}
+.post-slide:hover .post-review{
+    border-top-color:red;
+}
+.post-slide .post-title{
+    margin:0 0 10px 0;
+}
+.post-slide .post-title a{
+    font-size:14px;
+    color:#333;
+    text-transform:uppercase;
+}
+.post-slide .post-title a:hover{
+    text-decoration:none;
+    font-weight: bold;
+}
+.post-slide .post-bar{
+    padding:0;
+    list-style:none;
+    text-transform:uppercase;
+    position: relative;
+    margin-bottom: 20px;
+}
+.post-slide .post-bar:after,
+.post-slide .post-bar:before{
+    border: 1px solid dodgerblue;
+    bottom: -10px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 36%;
+    width: 25px;
+}
+.post-slide .post-bar:before{
+    border: 1px solid red;
+    right: 32%;
+}
+.post-slide .post-bar li{
+    color:#555;
+    font-size:10px;
+    margin-right:10px;
+    display:inline-block;
+}
+.post-slide .post-bar li a{
+    font-size: 13px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color: #777;
+}
+.post-slide .post-bar li a:hover{
+    color: #777;
+}
+.post-slide .post-bar li i{
+    color:#777;
+    margin-right:5px;
+}
+.post-slide .post-description{
+    font-size:12px;
+    line-height:21px;
+    color:#444454;
+}
+.owl-theme .owl-controls{
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #fff;
+    border: 2px solid #fff;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #37a6a4;
+}
+@media only screen and (max-width: 990px) {
+    .post-slide .post-img {
+        width:100%;
+    }
+    .post-slide .post-review{
+        width:100%;
+        border-bottom: 4px solid #777;
+    }
+    .post-slide .post-bar:before{
+        left: 0;
+    }
+    .post-slide .post-bar:after{
+        left: 25px;
+    }
+}
+/*******************************************/
+
+/******************************/
+
+/***Section Pick Your Cruise***/
+
+.s8 {
+    background-color: white;
+    color: black;
+}
+
+.boximage8 {
+    height: 100vh;
+    /*background-color: crimson;*/
+    padding: 5px;
+}
+
+.image8 {
+    height: 100%;
+    width: 100%;
+}
+
+.boxinfo8 {
+    /*height: 100vh;
+    background-color: gold;*/
+    padding: 5px;
+}
+
+.header8 {
+    margin-left: -115px;
+}
+
+.header8 h1 {
+    text-transform: uppercase;
+    font-size: 95px;
+}
+
+.pick {
+    padding-left: 0px;
+}
+
+.cruise {
+    padding-left: 120px;
+    margin-top: -40px;
+}
+
+.description8 {
+    margin: 20px auto;
+    width: 95%;
+    margin-left: -50px;
+}
+
+
+/*** PICK A CRUISE LINE EFFECT ***/
+
+.exam1 {
+    position:relative;
+    overflow:hidden;
+    height: 100%;
+    text-align: center;
+}
+.exam1 img {
+    transition:.5s;
+}
+.exam2 {
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background:rgba(30,144,255,.7);
+    padding-top: 8%;
+    text-align: center;
+    border-radius: 5px;
+    transition:.5s;
+}
+.exam2 h1 {
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-family:arial;
+}
+.exam1:hover .exam2 {
+    left:0;
+}
+.exam1:hover img {
+    transform: scale(1.2);
+}
+
+
+a{color: white;}
+
+a.cruise:link, a.cruise:active {
+    background-color:  #252440;
+    padding: 1em 2em;
+    border: 3px solid  #252440;
+    border-radius: 25px;
+    transition: all ease-out .3s;
+}
+
+a.cruise:hover {
+    border: 3px solid #252440;
+    background-color: transparent;
+    text-decoration: none;
+    color: #252440 !important;
+}
+
+a.cruise:visited {
+    border: 3px solid #252440;
+    background-color: #252440;
+    text-decoration: none;
+    color: white;
+}
+
+a.book:link, a.book:active {
+    background-color:  #252440;
+    padding: 1em 2em;
+    border: 3px solid  #252440;
+    border-radius: 25px;
+    transition: all ease-out .3s;
+}
+
+a.book:hover {
+    border: 3px solid white !important;
+    background-color: #252440;
+    text-decoration: none;
+    color:  #fff !important;
+}
+
+a.book:visited {
+    border: 3px solid #252440;
+    background-color: #252440;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*****************************/
+
+
+/******* REVIEWS SECTION ******/
+.skewed {
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    -webkit-transform: rotate(-5deg) skew(-5deg, 0);
+       -moz-transform: rotate(-5deg) skew(-5deg, 0);
+        -ms-transform: rotate(-5deg) skew(-5deg, 0);
+         -o-transform: rotate(-5deg) skew(-5deg, 0);
+            transform: rotate(-5deg) skew(-5deg, 0);
+}
+/******************************/
+
+/*** FLIP EFFECT LITTLE IMAGES ***/
+
+.flip-vertical-right {
+	-webkit-animation: flip-vertical-right 3.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.5s infinite ;
+	        animation: flip-vertical-right 3.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.5s infinite ;
+}
+
+@-webkit-keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+@keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+/***** Accordion *****/
+
+.accordian {
+	width: 845px;
+    height: 100%;
+	overflow: hidden;
+	
+	/*Time for some styling*/
+	margin: 50px auto;
+	/*box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);*/
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+	width: 880px;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 160px;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+	display: block;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+width: 640px;	
+
+}
+.image_title a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+/**********************/
