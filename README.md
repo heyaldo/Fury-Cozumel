@@ -1,3 +1,3 @@
 # Fury-Cozumel
 Sales landing page
-Landing PAge Fury Cozumel
+Landing Page Fury Cozumel
